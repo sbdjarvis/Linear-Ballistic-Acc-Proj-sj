@@ -1,3 +1,4 @@
+
 #lang scribble/base
 @(require scribble/base
           scribble/manual
@@ -23,7 +24,7 @@ a threshold parameter and a motor response time parameter which defines when a r
 
 @section{What exactly is a Linear Ballistic Accumulator and why is it a good model?}
 The Linear Ballistic Accumulator Model is a model of choice response time that is simplified compared to other models. It can be used to model a choice between two alternatives but is preferred because it also models a choice between multiple alternatives. The Linear Ballistic Accumulator eliminates the moment-to-moment variability that earlier models like the
-Usher and McClelland Model incorporate. Evidence is accumulated for each response independent of other responses, which ensures that accurate predictions for both correct and incorrect responses are made. It also provides analytic solutions for the predicted distributions and probabilities which are easy to use @~cite[plt-tr2].
+Usher and McClelland Model (@~cite[plt-tr9]incorporate. Evidence is accumulated for each response independent of other responses, which ensures that accurate predictions for both correct and incorrect responses are made. It also provides analytic solutions for the predicted distributions and probabilities which are easy to use @~cite[plt-tr2].
 
 @figure**[
         "fig:lbamodelled"
@@ -224,7 +225,18 @@ The simplicity of the LBA model makes it preferable to other choice models, as i
     #:date      "2004"
     #:location  (journal-location "Psychological Review" #:pages '(333 367) #:volume "111")
     #:note      @hyperlink["https://psycnet.apa.org/doi/10.1037/0033-295X.111.2.333"]{https://psycnet.apa.org/doi/10.1037/0033-295X.111.2.333} ))
-    
+
+@(define plt-tr9
+   (make-bib
+    #:title     "The time course of perceptual choice: the leaky, competing accumulator model."
+    #:author    (authors "Usher M, McClelland J.L.")
+    #:date      "2001"
+    #:location  (journal-location "Psychol Rev; mathematical psychology" #:pages '(550-592) #:number "3" #:volume "108")
+    #:note      @hyperlink ["https://doi.org/10.1037/0033-295x.108.3.550"]{https://doi.org/10.1037/0033-295x.108.3.550}
+
+
+
+
 @generate-bibliography[#:sec-title "Project References"
                          #:tag "ref:projects"]
 
