@@ -231,8 +231,8 @@ The simplicity of the LBA model makes it preferable to other choice models, as i
     #:title     "The time course of perceptual choice: the leaky, competing accumulator model."
     #:author    (authors "Usher M, McClelland J.L.")
     #:date      "2001"
-    #:location  (journal-location "Psychol Rev; mathematical psychology" #:pages '(550-592) #:number "3" #:volume "108")
-    #:note      @hyperlink ["https://doi.org/10.1037/0033-295x.108.3.550"]{https://doi.org/10.1037/0033-295x.108.3.550} ))
+    #:location  (journal-location "Psychol Rev; mathematical psychology" #:pages '(550 592) #:number "3" #:volume "108")
+    #:note      @hyperlink["https://doi.org/10.1037/0033-295x.108.3.550"]{https://doi.org/10.1037/0033-295x.108.3.550} ))
 
 
 
